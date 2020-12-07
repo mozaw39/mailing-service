@@ -1,4 +1,5 @@
 # mailing-service
+<<<<<<< HEAD
 This service helps sending a personalized message to a group of emails stored in a airtable database using google smtp server. It's a rest API made with JAX-RS Jersey implementation, JavaMail Api and Airtable API.
 
 ## Airtable
@@ -11,3 +12,5 @@ a modal that contains the object that will helps us request the service.<br>
 a repository to retrieve the data from Airtable.<br>
 a rest endpoint (POST).<br>
 a mail utility that take care of sending the message.
+=======
+>>>>>>> adding README file
