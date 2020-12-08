@@ -8,11 +8,12 @@ import javax.ejb.Stateless;
 import java.util.*;
 @Stateless
 public class AirtableRepository {
+
     Airtable airtable;
     SyncTable<HashMap> table;
     public AirtableRepository() {
         Airtable airtable = Airtable.builder()
-                .config(Configuration.builder().apiKey("keyDv8GhbNvXfKdg5").build())
+                .config(Configuration.builder().apiKey("API_KEY").build())
                 .build();
         table = airtable.buildSyncTable("appuFRh8k8mBSS29c", "table", HashMap.class);
     }
