@@ -1,6 +1,7 @@
-package org.service.mailing;
+package org.service.mailing.utils;
 
 import org.service.mailing.modal.SenderInfo;
+import org.service.mailing.repository.AirtableRepository;
 
 import javax.ejb.Stateful;
 import javax.inject.Inject;

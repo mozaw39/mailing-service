@@ -1,4 +1,4 @@
-package org.service.mailing;
+package org.service.mailing.repository;
 
 import com.tryadhawk.airtable.*;
 import com.tryadhawk.airtable.v0.Record;
@@ -13,7 +13,7 @@ public class AirtableRepository {
     SyncTable<HashMap> table;
     public AirtableRepository() {
         Airtable airtable = Airtable.builder()
-                .config(Configuration.builder().apiKey("API_KEY").build())
+                .config(Configuration.builder().apiKey("keyDv8GhbNvXfKdg5").build())
                 .build();
         table = airtable.buildSyncTable("appuFRh8k8mBSS29c", "table", HashMap.class);
     }

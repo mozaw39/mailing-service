@@ -1,7 +1,7 @@
 package org.service.mailing.rest;
 
 
-import org.service.mailing.EmailUtils;
+import org.service.mailing.utils.EmailUtils;
 import org.service.mailing.modal.SenderInfo;
 
 import javax.inject.Inject;
