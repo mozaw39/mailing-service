@@ -12,4 +12,4 @@ a repository to retrieve the data from Airtable.<br>
 a rest endpoint (POST).<br>
 a mail utility that take care of sending the message.
 
-##Thank you all
+
