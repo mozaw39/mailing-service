@@ -85,7 +85,7 @@ public class EmailUtils {
         message.setFrom(new InternetAddress(fromEmail));
         //message.addRecipient(Message.RecipientType.TO, new InternetAddress(email));
         message.setSubject(senderInfo.getSubject());
-        String htmlMessage = "<html><p>Hi "+ firstName + ",</p><p>"+ senderInfo.getBody() + "</p>";
+        String htmlMessage = "<html><p>Dear "+ firstName + ",</p><p>"+ senderInfo.getBody() + "</p>";
         htmlMessage += "<div style=\"display:inline-block;vertical-align:top;\"><img src=\"cid:image-id\" />\n" +
                 "<div style=\"display:inline-block;border-left: 3px solid black;height: 150px;\"></div></div>";
         htmlMessage += "<div style=\"display:inline-block;\"><h3>" + senderInfo.getFirstName() + " " + senderInfo.getLastName()+ "</h3>";
@@ -100,7 +100,7 @@ public class EmailUtils {
         Multipart multipart = new MimeMultipart();
         multipart.addBodyPart(messageBodyPart);
         // adds inline image attachments
-        String contentId = "image-id";
+        /*String contentId = "image-id";
         MimeBodyPart imagePart = new MimeBodyPart();
         imagePart.setHeader("Content-ID", "<" + contentId + ">");
         imagePart.setDisposition(MimeBodyPart.INLINE);
@@ -110,7 +110,8 @@ public class EmailUtils {
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-        multipart.addBodyPart(imagePart);
+        multipart.addBodyPart(imagePart);*/
+        //Sending a message with a img signature
         message.setContent(multipart);
         return message;
     }
