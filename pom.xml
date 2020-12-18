@@ -5,19 +5,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-<<<<<<< HEAD
   <artifactId>mailingservice</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>mailingservice Maven Webapp</name>
-=======
   <artifactId>MailingService</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>MailingService Maven Webapp</name>
->>>>>>> sending a mail without an img signature
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -28,10 +25,6 @@
   </properties>
 
   <dependencies>
-<<<<<<< HEAD
-=======
-
->>>>>>> sending a mail without an img signature
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -54,7 +47,6 @@
       <artifactId>javaee-api</artifactId>
       <version>7.0</version>
     </dependency>
-<<<<<<< HEAD
   </dependencies>
 
   <build>
@@ -92,7 +84,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-=======
 
   </dependencies>
 
@@ -103,11 +94,9 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-<<<<<<< HEAD
-=======
+
         <version>2.5.1</version>
         <inherited>true</inherited>
->>>>>>> sending a mail without an img signature
         <configuration>
           <source>8</source>
           <target>8</target>
