@@ -12,6 +12,6 @@ a repository to retrieve the data from Airtable.<br>
 a rest endpoint (POST).<br>
 a mail utility that take care of sending the message.
 ## Demo
-[demo](https://github.com/mozaw39/mailing-service/blob/main/demo-video/output_converted.gif)
+![demo](https://github.com/mozaw39/mailing-service/blob/main/demo-video/output_converted.gif)
 
 
